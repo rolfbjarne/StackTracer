@@ -5,10 +5,8 @@ public class AppDelegate : NSApplicationDelegate {
 	public override void DidFinishLaunching (NSNotification notification)
 	{
 		// Insert code here to initialize your application
-
-		var report = StackReport.Create ();
-		Console.WriteLine (report);
-
+		StackReport.TestMe ();
+		Environment.Exit (0);
 	}
 
 	public override void WillTerminate (NSNotification notification)

@@ -1,3 +1,5 @@
+crash.sh
+crash.txt
 bin
 obj
 *.binlog
